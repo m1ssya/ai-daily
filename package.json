@@ -1,0 +1,9 @@
+{
+  "name": "ai-daily",
+  "private": true,
+  "description": "每日 AI 热帖 — 静态网站",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/build.mjs && python3 -m http.server 4173 --directory out"
+  }
+}

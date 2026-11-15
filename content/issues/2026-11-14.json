@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-14",
+  "title": "智能体开始代购，航司却把订票的门关上了",
+  "intro": "这一期像一张智能体落地的横切面：一边是代购钱包和桌面助手，一边是航司禁止代订机票；开发工具和评测在往前走，一线使用者却在抱怨等待与分心。\n以下 7 条均来自 X 公开帖子，摘要只依据原帖表述。",
+  "items": [
+    {
+      "title": "OpenAI 推出 ChatGPT Wallet，智能体可代为下单付款",
+      "summary": "多家账户报道称，OpenAI 已推出 ChatGPT Wallet，可让其名为 dots 的智能体在用户授权后代为完成购物。用户预先绑定卡片，每笔订单需经 Face ID 等生物识别确认；系统与 American Express、Mastercard、Visa 合作，使用一次性支付令牌，不向智能体或商户提供完整卡号。该功能先向美国的 ChatGPT Pro 订阅用户开放。",
+      "author_handle": "crypto_banter",
+      "post_url": "https://x.com/crypto_banter/status/2121259823131926933",
+      "tags": [
+        "ChatGPT",
+        "支付",
+        "智能体"
+      ]
+    },
+    {
+      "title": "美国联合航空将禁止个人 AI 智能体代订机票",
+      "summary": "@rohanpaul_ai 援引《华尔街日报》报道称，美联航将停止让个人 AI 智能体在其系统上完成订票，理由是可能泄露敏感数据或产生意外购买。报道同时提到，智能体仍可查询航班与价格，但不能在该航司网站上完成支付。",
+      "author_handle": "rohanpaul_ai",
+      "post_url": "https://x.com/rohanpaul_ai/status/2120584444247760983",
+      "tags": [
+        "出行",
+        "安全",
+        "智能体"
+      ]
+    },
+    {
+      "title": "AWS 发布本地模拟器，供编程智能体在本机测试",
+      "summary": "AWS 人工智能负责人 Swami Sivasubramanian 宣布推出 AWS Emulator，可在本地为编程智能体提供一套 AWS 环境用于测试。他提到，开发者工具团队首席工程师 Matt Goldberg 用一句提示让 @kirodotdev 在约 15 分钟内写出 SQS 模拟器初版，但做成可靠方案还花了更多工作。他同时指出，智能体写代码的速度已经超过团队在生产环境中检查的速度。",
+      "author_handle": "SwamiSivasubram",
+      "post_url": "https://x.com/SwamiSivasubram/status/2120579757544755272",
+      "tags": [
+        "AWS",
+        "开发工具",
+        "智能体"
+      ]
+    },
+    {
+      "title": "Deepnote 发布主动智能体基准：难的是该不该出手",
+      "summary": "Deepnote 的 Jakub Jurovych 介绍了 Agent Initiative Benchmark：在一家拥有六年详细历史的合成公司里，用 Slack 场景测试 12 个前沿模型能否在合适的时候主动帮忙。结果显示，OpenAI 的 6.1 Sol 与 Astra 胜过 Anthropic 最新的 Fable 5.2，其中 Sol 单次任务约 0.11 美元，Fable 5.2 约 1.87 美元；多数模型在不需要插手时仍会试图帮忙，这类多余操作大约多花 80% 的时间和费用。评测含 50 项任务，限时 3 分钟，数据集和代码已开源。",
+      "author_handle": "jakubjurovych",
+      "post_url": "https://x.com/jakubjurovych/status/2121256499552915586",
+      "tags": [
+        "评测",
+        "Deepnote",
+        "模型"
+      ]
+    },
+    {
+      "title": "Perplexity 在 Mac 应用中向 Max 用户开放 Teammates",
+      "summary": "Perplexity 官方宣布，Teammates 已在 Perplexity Mac 应用中向 Max 订阅用户开放。官方称，这些智能体可单独或相互协作，处理问答质检、客户服务、研究、增长营销等工作。",
+      "author_handle": "perplexity_ai",
+      "post_url": "https://x.com/perplexity_ai/status/2121294533879267683",
+      "tags": [
+        "Perplexity",
+        "Mac",
+        "智能体"
+      ]
+    },
+    {
+      "title": "开发者 Ayush：智能体工作是他经历过最挫败的方式",
+      "summary": "@ay_ushr 写道，智能体工作是他经历过最令人挫败、也最难获得满足感的工作方式。同时推进三件事时，每一步都要等待 1 到 3 分钟，再消化一大段文字才能决定下一步；等待时又容易分心，忘记并行任务的上下文。他表示还不知道有没有更好的解决方案，只希望别再只靠侧边栏里争抢注意力的一堆标签页。",
+      "author_handle": "ay_ushr",
+      "post_url": "https://x.com/ay_ushr/status/2121225144152551643",
+      "tags": [
+        "开发体验",
+        "编程智能体"
+      ]
+    },
+    {
+      "title": "一份从基础到上线的 AI 智能体开发路线图",
+      "summary": "@e_opore 分享了一份「AI Agents Developer Roadmap」，从编程与数学基础、大模型与 API、提示与上下文工程，一路列到多智能体系统、评测、安全与上线部署，并给出最终目标：成为能设计、编排、评估并部署自主智能体的开发者。该帖适合当作学习提纲，而不是一份必须按序完成的官方课纲。",
+      "author_handle": "e_opore",
+      "post_url": "https://x.com/e_opore/status/2121189887671972301",
+      "tags": [
+        "学习",
+        "路线图",
+        "智能体"
+      ]
+    }
+  ]
+}

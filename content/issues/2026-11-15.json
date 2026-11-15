@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-15",
+  "title": "Agent 开始落地，风险辩论也更尖锐了",
+  "intro": "这一期一边是 Agent 落地里的实用问题：提示词、目标设计、自动求职；一边是宏观层的风险辩论：金融稳定、能力加速时间表，以及炒作与恐慌之间该站在哪里。\n以下 8 条均来自 X 公开帖子，摘要只依据原帖表述。",
+  "items": [
+    {
+      "title": "Zach Weinersmith 的 AI 立场坐标图",
+      "summary": "漫画家 Zach Weinersmith 画了一张从「纯炒作」到「像电力一样改变世界」、从「有害」到「乌托邦」的网格，邀请大家对号入座，成为当天讨论的引爆点。",
+      "author_handle": "ZachWeiner",
+      "post_url": "https://x.com/ZachWeiner/status/2121415513276584222",
+      "tags": ["讨论", "立场"]
+    },
+    {
+      "title": "「最快修好」会带坏编程 Agent",
+      "summary": "工程师 Lauren（@poteto）提醒，对 Agent 说 “quick fix / just for now”，权宜之计可能被后续 Agent 反复复制，演变成系统性技术债。",
+      "author_handle": "poteto",
+      "post_url": "https://x.com/poteto/status/2121646643124809848",
+      "tags": ["编程智能体", "技术债"]
+    },
+    {
+      "title": "Theo：AI 会让软件整体更稳定",
+      "summary": "开发者 Theo 提出相反看法：尽管有人担心 AI 写出烂代码，但长期看软件稳定性会因 AI 而上升。",
+      "author_handle": "theo",
+      "post_url": "https://x.com/theo/status/2121458046249665010",
+      "tags": ["软件质量", "AI"]
+    },
+    {
+      "title": "Rutger Bregman：是时候认真对待 AI 风险了",
+      "summary": "作家撰文称自己不再把 AI 当作「辣味自动补全」，转为认真看待失控风险。文中引用的数学突破等是他的陈述。",
+      "author_handle": "rutgerbregman",
+      "post_url": "https://x.com/rutgerbregman/status/2121633046025613517",
+      "tags": ["风险", "评论"],
+      "caveat": "未经独立核实"
+    },
+    {
+      "title": "用「最爱零食」筛掉 AI 求职者",
+      "summary": "AI 检测公司 Pangram 称，在申请表里加一道零食 / 机器学习概念题后，大量自动投递的 Agent 暴露身份，评审量据称下降约 60%。",
+      "author_handle": "i7solar",
+      "post_url": "https://x.com/i7solar/status/2121439657686905173",
+      "tags": ["招聘", "检测"],
+      "caveat": "公司方面的说法"
+    },
+    {
+      "title": "Harrison Chase：先把 Agent 的目标设计对",
+      "summary": "LangChain 创始人写道，随着 Agent 转向执行目标，目标本身的设计变得关键，并分享他们在实践中的经验。",
+      "author_handle": "hwchase17",
+      "post_url": "https://x.com/hwchase17/status/2121635683999883577",
+      "tags": ["LangChain", "目标设计"]
+    },
+    {
+      "title": "美联储调查：AI 成金融稳定突出风险",
+      "summary": "美联储最新金融稳定材料显示，受访市场联系人中约 87% 将 AI 列为突出风险，较春季明显上升；同时提到 AI 相关融资扩张，市场解读不一。",
+      "author_handle": "NoLimitGains",
+      "post_url": "https://x.com/NoLimitGains/status/2121581030989856891",
+      "tags": ["金融", "风险"]
+    },
+    {
+      "title": "Dwarkesh：AI 研究或成为可验证的加速域",
+      "summary": "他主张当前模型能力「崎岖不齐」，但 AI 研究本身有可验证指标，因而可能率先被自动化并加速后续进展。",
+      "author_handle": "dwarkesh_sp",
+      "post_url": "https://x.com/dwarkesh_sp/status/2121696412773781549",
+      "tags": ["研究", "预测"],
+      "caveat": "这是预测，并非既成事实"
+    }
+  ]
+}
