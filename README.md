@@ -93,3 +93,12 @@ npm run serve
 ## 技术说明
 
 站点用 Node.js 脚本把 JSON 生成静态 HTML，不依赖前端框架，方便以后接到每日自动更新流程，也方便放到 Vercel。
+
+## 工程文档与贡献
+
+仓库采用 [agentic-engineering](https://github.com/m1ssya/agentic-engineering) 文档与工作流规范。Agent 与贡献者请先阅读 [AGENTS.md](AGENTS.md)；文档导航见 [docs/README.md](docs/README.md)。本地构建和文档链接检查：
+
+```bash
+npm run build
+python3 scripts/check_docs.py
+```
