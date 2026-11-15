@@ -1,0 +1,33 @@
+name: Documentation checks
+
+on:
+  pull_request:
+    paths:
+      - "**.md"
+      - "docs/**"
+      - ".agents/**"
+      - "scripts/check_docs.py"
+      - ".github/workflows/docs-check.yml"
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+      - "docs/**"
+      - ".agents/**"
+      - "scripts/check_docs.py"
+      - ".github/workflows/docs-check.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    name: Validate documentation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Check Markdown links
+        run: python scripts/check_docs.py
