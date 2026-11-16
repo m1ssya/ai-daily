@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-16",
+  "title": "Agent 能不能把活干完，成了今天的主线",
+  "intro": "这一期讨论更集中在「Agent 能不能把活干完」：真实任务评测数字在涨，编程工作流也在改（工具调用批处理、先写验证器），实验室则把模型推进到尚未定论的科学研究里。\n以下 6 条均来自 X 公开帖子，摘要只依据原帖表述。",
+  "items": [
+    {
+      "title": "OpenAI 科学博客首发",
+      "summary": "官方称物理学家 Nathaniel Craig 与 GPT-6 Astra 合作，给出一个「标准模型」的格点定义候选。这是研究过程分享，并非已被证实的物理突破。",
+      "author_handle": "OpenAI",
+      "post_url": "https://x.com/OpenAI/status/2122123437141553630",
+      "tags": ["OpenAI", "科研", "物理"],
+      "caveat": "并非已被证实的物理突破"
+    },
+    {
+      "title": "Agent 做真实自由职业项目：13 个月从 2.5% 到 41.3%",
+      "summary": "他援引 Remote Labor Index，称目前领先的是 Claude Fable 5.2；相关数字在 13 个月里从 2.5% 升至 41.3%。帖中同时说明，测试提供了 brief，且不含客户沟通。",
+      "author_handle": "kimmonismus",
+      "post_url": "https://x.com/kimmonismus/status/2121929485951836640",
+      "tags": ["评测", "自由职业", "Claude"]
+    },
+    {
+      "title": "Fable 5.2 的 97 KB 水下世界",
+      "summary": "该帖称，一次 Claude Code 提示就生成了约 97 KB、无需游戏引擎、可在手机上跑到 180 FPS 的互动水下世界。",
+      "author_handle": "Pirat_Nation",
+      "post_url": "https://x.com/Pirat_Nation/status/2122011748752318857",
+      "tags": ["Claude", "演示", "编程智能体"],
+      "caveat": "属于演示声称"
+    },
+    {
+      "title": "日常工作里分不出 Fable 和 Opus",
+      "summary": "他表示自己的工作足够琐碎，感觉 Fable 5.2 和 Opus 5.5 high 没有差别。",
+      "author_handle": "ThePrimeagen",
+      "post_url": "https://x.com/ThePrimeagen/status/2122053127130222881",
+      "tags": ["Claude", "体验", "编程"]
+    },
+    {
+      "title": "各家 Coding Agent 的 Code Mode 实现很不一样",
+      "summary": "Claude Code 的实验性 Code Mode 用 Bun 里的 node:vm 把工具调用写成脚本一次跑完；他也对比了 Codex、OpenCode、Pi 的不同实现。",
+      "author_handle": "RhysSullivan",
+      "post_url": "https://x.com/RhysSullivan/status/2121787604215664891",
+      "tags": ["编程智能体", "Claude Code", "工作流"]
+    },
+    {
+      "title": "先做验证器，再让 Agent 写代码",
+      "summary": "他认为软件开发正在换顺序：旧世界是先写再测，新世界是先把验证器搭好，再让 Agent 生成代码直到通过。",
+      "author_handle": "Yuchenj_UW",
+      "post_url": "https://x.com/Yuchenj_UW/status/2122034320823247091",
+      "tags": ["编程智能体", "工作流", "验证"]
+    }
+  ]
+}
